@@ -23,9 +23,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 10px;
-    width: fit-content;
- 
+    margin: 10px 30%;
+     
   }
   .container img{
     width: 600px;
@@ -95,6 +94,10 @@ body{
     background-color: #f1f1f1;
     text-align: center;
   }
-
+p{
+  text-align: center;
+  font-size:14px ;
+  font-family:'Montserrat',sans-serif ;
+}
 
  
