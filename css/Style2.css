@@ -9,22 +9,56 @@
     text-decoration: none;
 }
 body{
-    background-color:rgb(188, 241, 240); 
+    background-color:rgb(188, 241, 240);
+    align-items: center; 
+    justify-content: center;
   }
   /* Add padding to containers */
 .container {
     padding: 16px;
     background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin:20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+    width: fit-content;
+ 
   }
+  .container img{
+    width: 600px;
+    height: 700px
+  }
+  .container .form-item{
+    display:table-row;
+    justify-content: center;
+    padding: 20px;
+  }
+  .container .form-item .name,
+  .container .form-item .email,
+  .container .form-item .password  ,
+  .container .form-item .re-password  ,
+  .container .form-item .registerbtn,
+  .container .form-item .signin 
+  {
+    align-items: center;
+    margin: 10px auto;
+
+  }
+
   
   /* Full-width input fields */
   input[type=text], input[type=password] {
-    width: 100%;
+    width: 500px;
     padding: 15px;
     margin: 5px 0 22px 0;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     border: none;
-    background: #f1f1f1;
+    align-items: center;
+    background-color: #f1f1f1;
   }
   
   input[type=text]:focus, input[type=password]:focus {
@@ -33,10 +67,7 @@ body{
   }
   
   /* Overwrite default styles of hr */
-  hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-  }
+ 
   
   /* Set a style for the submit button */
   .registerbtn {
@@ -46,7 +77,7 @@ body{
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 500px;
     opacity: 0.9;
   }
   
@@ -64,3 +95,6 @@ body{
     background-color: #f1f1f1;
     text-align: center;
   }
+
+
+ 
