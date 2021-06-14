@@ -19,11 +19,12 @@ body{
     background-color: white;
     align-items: center;
     justify-content: center;
+    object-fit: cover;
     margin:20px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 10px 30%;
+    margin: 10px 20%;
      
   }
   .container img{

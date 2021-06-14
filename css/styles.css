@@ -13,13 +13,13 @@ body{
  
   }
 
-nav{
-    width: 100%;
+ nav{
+     width: 100%;
     height:100px;
     background-color: #eb9595;
-    line-height: 75px;
-    /* padding: 20px 80px 20px; */
-    align-items: center;
+  
+    padding: 20px 80px 20px; 
+    align-items: center; 
 
 }
 nav .logo
@@ -38,30 +38,34 @@ nav ul
 {
    float: right;
 }
+
 nav ul li 
 {
 list-style: none;
 display: inline-block;
-}
+justify-content: center;
+align-items: center;
+margin-left: 20px;
+} 
 
-nav ul li .navBarBut button{
+ nav ul li .navBarBut button{
     
     color:rgb(255, 255, 255);
     font-size: 18px;
-    
+    padding: 0px;
     border-radius: 5px;
     background-color: indigo;
     text-transform: uppercase;
+    padding: 10px;
    
-}
+} 
 nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
-    padding: 10px 10px ;
-    
-    
+    padding: 10pxpx 10px ;
+       
 }
 nav ul li a:hover
 {
@@ -72,19 +76,8 @@ nav ul li .active
 {
     color:#000000;
     
-}
+}*/
 
-.checkbtn{
-    color:#fff;
-    font-size: 25px;
-    cursor:pointer;
-    float: right;
-    display: none;
-}
-#check{
-    display: none;
-     float:right;
-}
 /* Carousel */
 .carousel-item
 {
