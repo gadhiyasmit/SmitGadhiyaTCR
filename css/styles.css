@@ -32,7 +32,11 @@ font-size: 34px;
 letter-spacing: 1.5px;
 font-weight: bold;
 color: #fff;
-text-transform: uppercase;
+text-transform: capitalize;
+}
+nav .logo p span
+{
+color:rgb(155, 5, 35);
 }
 nav ul
 {
